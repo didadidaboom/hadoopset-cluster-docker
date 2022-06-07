@@ -1,8 +1,6 @@
 ## Run Hadoop with hive, hbase, and spark Cluster within Docker Containers
 
 
-
-
 ### 3 Nodes Hadoop set (including hive, hbase, spark) Cluster
 
 ##### 1. pull docker image
@@ -14,7 +12,7 @@ sudo docker pull didadidaboom/hadoopset:1.0
 ##### 2. clone github repository
 
 ```
-git clone https://github.com/didadidaboom/hadoop-cluster-docker
+git clone https://github.com/didadidaboom/hadoopset-cluster-docker.git
 ```
 
 ##### 3. create hadoop network
