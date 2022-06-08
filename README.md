@@ -6,7 +6,8 @@
 ##### 1. pull docker image
 
 ```
-sudo docker pull didadidaboom/hadoopset:1.0
+sudo docker pull didadidaboom/hadoopset:1
+sudo docker pull mysql
 ```
 
 ##### 2. clone github repository
@@ -31,12 +32,13 @@ sudo ./start-container.sh
 **output:**
 
 ```
+start hadoop-mysql container...
 start hadoop-master container...
 start hadoop-slave1 container...
 start hadoop-slave2 container...
 root@hadoop-master:~# 
 ```
-- start 3 containers with 1 master and 2 slaves
+- start 4 containers with 1 mysql, 1 master and 2 slaves
 - you will get into the /root directory of hadoop-master container
 
 ##### 5. start hadoop
