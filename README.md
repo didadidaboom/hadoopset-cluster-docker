@@ -94,44 +94,44 @@ sudo ./start-container.sh 5
 
 do 5~6 like section A
 
-###  start hive 
+###  Start hive 
 
-##### 1. run hive metastore sevice
+##### 1. Run hive metastore sevice
 
 ```
 hive --sevice metastore
 ```
 
-##### 2. create initial database
+##### 2. Create initial database
 
 ```
 schematool -dbType mysql -initSchema
 ```
 
-##### 3. test hive
+##### 3. Test hive
 
 ```
 hive
 ```
 
-##### noted: mysql runs in a container named hadoop-mysql with a default username(root) and password(hive).
+##### Noted: mysql runs in a container named hadoop-mysql with a default username(root) and password(hive).
 
-### start hbase
+### Start hbase
 
 ```
 start-hbase.sh
 hbase shell
 ```
 
-### start spark
+### Start spark
 
-##### 1. start spark
+##### 1. Start spark
 ```
 sbin/spark-all.sh
 ```
 
-##### 2. check spark
-check whether installation is successful or not by typing "jps".  Having ***output:*** in master node:
+##### 2. Check spark
+Check whether installation is successful or not by typing "jps".  Having ***output:*** in master node:
 ```
 namenode
 jps
@@ -151,7 +151,7 @@ worker
 
 or check by browsing web management page: http://hadoop-master:8080
 
-##### 3.run a example to test spark
+##### 3.Run a example to test spark
 
 ```
 ./bin/spark-submit
