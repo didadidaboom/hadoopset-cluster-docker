@@ -125,10 +125,12 @@ hbase shell
 
 ### start spark
 
+##### 1. start spark
 ```
 sbin/spark-all.sh
 ```
 
+##### 2. check spark
 check whether installation is successful or not by typing "jps".  Having ***output:*** in master node:
 ```
 namenode
@@ -147,3 +149,16 @@ nodemanager
 worker
 ```
 
+or check by browsing web management page: http://hadoop-master:8080
+
+##### 3.run a example to test spark
+
+```
+./bin/spark-submit
+--class org.apache.spark.examples.SparkPi 
+--master yarn 
+--deploy-mode cluster 
+--driver-memory 1G 
+--executor-memory 1G 
+--executor-cores 1 /usr/local/spark/examples/jars/spark-examples_2.12-3.0.1.jar 30
+```
