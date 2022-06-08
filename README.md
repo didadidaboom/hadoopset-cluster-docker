@@ -125,4 +125,25 @@ hbase shell
 
 ### start spark
 
-### 1. 
+```
+sbin/spark-all.sh
+```
+
+check whether installation is successful or not by typing "jps".  Having ***output:*** in master node:
+```
+namenode
+jps
+secondarynamenode
+resourcemanager
+master
+```
+
+Having ***output:*** in slave node:
+
+```
+jps
+datanode
+nodemanager
+worker
+```
+
