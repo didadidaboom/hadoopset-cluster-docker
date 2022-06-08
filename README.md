@@ -162,3 +162,7 @@ or check by browsing web management page: http://hadoop-master:8080
 --executor-memory 1G 
 --executor-cores 1 /usr/local/spark/examples/jars/spark-examples_2.12-3.0.1.jar 30
 ```
+
+### What are the differeces from https://github.com/kiwenlau/hadoop-cluster-docker:
+1. including hive, hbase, and spark
+2. ubuntu 18.04
