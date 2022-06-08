@@ -96,14 +96,33 @@ do 5~6 like section A
 
 ###  start hive 
 
-##### 1. hive --sevice metastore
+##### 1. run hive metastore sevice
 
-##### 2. schematool -dbType mysql -initSchema
+```
+hive --sevice metastore
+```
 
-##### 3. hive
+##### 2. create initial database
+
+```
+schematool -dbType mysql -initSchema
+```
+
+##### 3. test hive
+
+```
+hive
+```
 
 ##### noted: mysql runs in a container named hadoop-mysql with a default username(root) and password(hive).
 
 ### start hbase
 
-##### 1.
+```
+start-hbase.sh
+hbase shell
+```
+
+### start spark
+
+### 1. 
