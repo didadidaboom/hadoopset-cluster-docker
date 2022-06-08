@@ -131,7 +131,7 @@ sbin/spark-all.sh
 ```
 
 ##### 2. Check spark
-Check whether installation is successful or not by typing "jps".  Having ***output:*** in master node:
+Check whether installation is successful or not by typing "jps".  Having ***output*** in master node:
 ```
 namenode
 jps
@@ -140,7 +140,7 @@ resourcemanager
 master
 ```
 
-Having ***output:*** in slave node:
+Having ***output*** in slave node:
 
 ```
 jps
