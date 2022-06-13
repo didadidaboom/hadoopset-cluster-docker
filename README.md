@@ -6,7 +6,7 @@
 ##### 1. pull docker image
 
 ```
-sudo docker pull didadidaboom/hadoopset:1
+sudo docker pull didadidaboom/hadoopset:1.0
 sudo docker pull mysql
 ```
 
@@ -25,7 +25,7 @@ sudo docker network create --driver=bridge hadoop
 ##### 4. start container
 
 ```
-cd hadoop-cluster-docker
+cd hadoopset-cluster-docker
 sudo ./start-container.sh
 ```
 
