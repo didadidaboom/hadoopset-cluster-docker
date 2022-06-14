@@ -151,7 +151,7 @@ worker
 
 or check by browsing web management page: http://hadoop-master:8080
 
-##### 3.Run a example to test spark
+##### 3.Run an example to test spark
 
 ```
 ./bin/spark-submit
