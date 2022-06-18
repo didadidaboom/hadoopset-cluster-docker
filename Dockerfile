@@ -18,8 +18,8 @@ RUN wget https://github.com/kiwenlau/compile-hadoop/releases/download/2.7.2/hado
     tar -xzvf apache-hive-2.3.8-bin.tar.gz && \ 
     mv apache-hive-2.3.8-bin /usr/local/hive && \
     rm apache-hive-2.3.8-bin.tar.gz && \
-    wget https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar && \
-    mv mysql-connector-java-5.1.47.jar /usr/local/hive/lib/mysql-connector-java-5.1.47.jar && \
+    wget https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar && \
+    mv mysql-connector-java-8.0.16.jar /usr/local/hive/lib/mysql-connector-java.jar && \
     wget https://archive.apache.org/dist/hbase/1.4.7/hbase-1.4.7-bin.tar.gz && \
     tar -xzvf hbase-1.4.7-bin.tar.gz && \
     mv hbase-1.4.7 /usr/local/hbase && \
