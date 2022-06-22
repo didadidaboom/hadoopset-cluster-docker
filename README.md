@@ -13,7 +13,7 @@ sudo docker pull mysql
 ##### 2. clone github repository
 
 ```
-git clone https://github.com/didadidaboom/hadoopset-cluster-docker.git
+git clone https://github.com/didadidaboom/hadoopset-cluster-docker
 ```
 
 ##### 3. create hadoop network
